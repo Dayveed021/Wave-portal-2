@@ -1,0 +1,59 @@
+*{
+  color:white;
+  background : url(eth.jpg);
+  background-size: cover;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  color:black;
+  border-radius: 5px;
+  background:white;
+}
+.waveButton:hover{
+    background: black;
+    color: white;
+}
+  
+
+#message{
+  height : 50px;
+  width : 150px;
+  margin-top : 20px;
+  margin-left : 37%;
+  color : white;
+}
+
+h1{
+  color : white; 
+  text-decoration : underline;
+  text-align : center;
+}
